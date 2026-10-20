@@ -1,0 +1,310 @@
+{
+  "projects": [
+    {
+      "id": "prj_case_a",
+      "name": "ЖК «Ray Residence»",
+      "developer": "ТОО «DALA SK DEVELOPMENT»",
+      "bin": "230540014926",
+      "address": "г. Усть-Каменогорск, мкр. КШТ, пр. И. Есенберлина, 13/1",
+      "coordinates": { "lat": 49.895877, "lng": 82.596246 },
+      "status": "building",
+      "declaredReadiness": 25,
+      "legalBase": { "type": "unknown", "status": "unknown" },
+      "factors": {
+        "R1": { "id": "R1", "name": "Отсутствие правового основания", "description": "Сведения в выгрузке Qazreestr проверяются аналитиком МИО", "baseWeight": 35, "status": "needs_check", "source": "Запрос в Qazreestr.kz" },
+        "R2": { "id": "R2", "name": "Прямое предложение внести деньги", "description": "Предложение платной брони и первоначального взноса 20% в рекламе", "baseWeight": 25, "status": "confirmed", "source": "Instagram @ray_residence_uka" },
+        "R3": { "id": "R3", "name": "Активная реклама стройки", "description": "Продвижение строящегося ЖК до ввода в эксплуатацию", "baseWeight": 10, "status": "confirmed", "source": "Krisha.kz / Instagram" },
+        "R4": { "id": "R4", "name": "Коллективное обращение", "description": "", "baseWeight": 15, "status": "none" },
+        "R5": { "id": "R5", "name": "Несовпадение готовности", "description": "", "baseWeight": 10, "status": "none" },
+        "R6": { "id": "R6", "name": "Простой / просрочка", "description": "", "baseWeight": 5, "status": "none" }
+      },
+      "totalScore": 35,
+      "zone": "yellow"
+    },
+    {
+      "id": "prj_case_b",
+      "name": "ЖК «Көктем» (2-я очередь)",
+      "developer": "ТОО «Оскемен Курылыс Инвест»",
+      "bin": "220140008888",
+      "address": "г. Усть-Каменогорск, мкр. КШТ, пр. И. Есенберлина, 14",
+      "coordinates": { "lat": 49.902324, "lng": 82.605220 },
+      "status": "building",
+      "declaredReadiness": 15,
+      "legalBase": { "type": "none", "status": "inactive" },
+      "factors": {
+        "R1": { "id": "R1", "name": "Отсутствие правового основания", "description": "В реестрах Homeportal.kz, Qazreestr.kz и Ashyq Data отсутствует разрешение МИО и гарантия КЖК по 2-й очереди", "baseWeight": 35, "status": "confirmed", "source": "Сверка Qazreestr.kz и Ashyq Data" },
+        "R2": { "id": "R2", "name": "Прямое предложение внести деньги", "description": "Требование внести депозит 500 000 тг для фиксации цены на котловане", "baseWeight": 25, "status": "confirmed", "source": "Telegram-канал Новостройки ВКО" },
+        "R3": { "id": "R3", "name": "Активная реклама стройки", "description": "Массовая публикация объявлений о продаже квартир на стадии фундамента", "baseWeight": 10, "status": "confirmed", "source": "OLX.kz / Krisha.kz" },
+        "R4": { "id": "R4", "name": "Коллективное обращение", "description": "", "baseWeight": 15, "status": "none" },
+        "R5": { "id": "R5", "name": "Несовпадение готовности", "description": "", "baseWeight": 10, "status": "none" },
+        "R6": { "id": "R6", "name": "Простой / просрочка", "description": "", "baseWeight": 5, "status": "none" }
+      },
+      "totalScore": 70,
+      "zone": "red"
+    },
+    {
+      "id": "prj_case_c",
+      "name": "ЖК «Золотой Квадрат»",
+      "developer": "ТОО «НАУАН КОРП»",
+      "bin": "970640000190",
+      "address": "г. Усть-Каменогорск, ул. Касыма Кайсенова, 55/1",
+      "coordinates": { "lat": 49.945351, "lng": 82.622899 },
+      "status": "building",
+      "declaredReadiness": 75,
+      "legalBase": { "type": "kzhk_guarantee", "status": "active" },
+      "factors": {
+        "R1": { "id": "R1", "name": "Отсутствие правового основания", "description": "Действующая гарантия Единого оператора КЖК подтверждена в реестре", "baseWeight": 35, "status": "none", "source": "Homeportal.kz" },
+        "R2": { "id": "R2", "name": "Прямое предложение внести деньги", "description": "Привлечение средств ведется строго по ДДУ через уполномоченный банк", "baseWeight": 25, "status": "none" },
+        "R3": { "id": "R3", "name": "Активная реклама стройки", "description": "Законная реклама строящегося ЖК с указанием номера гарантии КЖК", "baseWeight": 10, "status": "confirmed", "source": "Krisha.kz" },
+        "R4": { "id": "R4", "name": "Коллективное обращение", "description": "", "baseWeight": 15, "status": "none" },
+        "R5": { "id": "R5", "name": "Несовпадение готовности", "description": "", "baseWeight": 10, "status": "none" },
+        "R6": { "id": "R6", "name": "Простой / просрочка", "description": "", "baseWeight": 5, "status": "none" }
+      },
+      "totalScore": 10,
+      "zone": "green"
+    },
+    {
+      "id": "prj_4",
+      "name": "ЖК «Tumar Towers Oskemen»",
+      "developer": "ТОО «Tumar Group LTD»",
+      "bin": "210240042104",
+      "address": "г. Усть-Каменогорск, мкр. Стрелка, пр. Победы, 9",
+      "coordinates": { "lat": 49.946991, "lng": 82.617661 },
+      "status": "building",
+      "declaredReadiness": 65,
+      "actualReadiness": 40,
+      "legalBase": { "type": "mio_permission", "status": "active" },
+      "factors": {
+        "R1": { "id": "R1", "name": "Отсутствие правового основания", "description": "Разрешение МИО подтверждено в Qazreestr.kz", "baseWeight": 35, "status": "none", "source": "Qazreestr.kz" },
+        "R2": { "id": "R2", "name": "Прямое предложение внести деньги", "description": "", "baseWeight": 25, "status": "none" },
+        "R3": { "id": "R3", "name": "Активная реклама стройки", "description": "", "baseWeight": 10, "status": "none" },
+        "R4": { "id": "R4", "name": "Коллективное обращение", "description": "", "baseWeight": 15, "status": "none" },
+        "R5": { "id": "R5", "name": "Несовпадение готовности", "description": "В рекламном буклете заявлено 65%, по данным облета БПЛА от 14.10.2026 фактическая готовность каркаса — 40% (разница 25 п.п.)", "baseWeight": 10, "status": "confirmed", "source": "Облет БПЛА 14.10.2026" },
+        "R6": { "id": "R6", "name": "Простой / просрочка", "description": "", "baseWeight": 5, "status": "none" }
+      },
+      "totalScore": 10,
+      "zone": "green",
+      "droneImages": {
+        "date1": "2026-07-15T00:00:00Z",
+        "url1": "/demo-drone-1.jpg",
+        "date2": "2026-10-14T00:00:00Z",
+        "url2": "/demo-drone-2.jpg"
+      }
+    },
+    {
+      "id": "prj_5",
+      "name": "ЖК «Satti City»",
+      "developer": "ТОО «Satti Qurylys East»",
+      "bin": "180940004444",
+      "address": "г. Усть-Каменогорск, мкр. КШТ, пр. И. Есенберлина, 10/1",
+      "coordinates": { "lat": 49.893202, "lng": 82.599471 },
+      "status": "building",
+      "declaredReadiness": 55,
+      "legalBase": { "type": "none", "status": "inactive" },
+      "factors": {
+        "R1": { "id": "R1", "name": "Отсутствие правового основания", "description": "Срок действия разрешения истек, продление не найдено в Ashyq Data", "baseWeight": 35, "status": "confirmed", "source": "Ashyq Data / ГАСК ВКО" },
+        "R2": { "id": "R2", "name": "Прямое предложение внести деньги", "description": "Прямых предложений внести бронь или депозит в текущих объявлениях не зафиксировано", "baseWeight": 25, "status": "none" },
+        "R3": { "id": "R3", "name": "Активная реклама стройки", "description": "Имиджевая реклама строящегося комплекса в соцсетях", "baseWeight": 10, "status": "confirmed", "source": "Instagram" },
+        "R4": { "id": "R4", "name": "Коллективное обращение", "description": "Зарегистрировано обращение инициативной группы по срокам сдачи", "baseWeight": 15, "status": "confirmed", "source": "e-Otinish #44912" },
+        "R5": { "id": "R5", "name": "Несовпадение готовности", "description": "", "baseWeight": 10, "status": "none" },
+        "R6": { "id": "R6", "name": "Простой / просрочка", "description": "Снижение темпов работ за последний квартал по данным мониторинга", "baseWeight": 5, "status": "confirmed", "source": "Мониторинг МИО" }
+      },
+      "totalScore": 65,
+      "zone": "yellow"
+    },
+    {
+      "id": "prj_6",
+      "name": "ЖК «ASYLYM» (Асылым)",
+      "developer": "ТОО «AN GROUPS»",
+      "bin": "970340000010",
+      "address": "г. Усть-Каменогорск, 19-й мкр., ул. Кокжал Барака, 18б",
+      "coordinates": { "lat": 49.889511, "lng": 82.615074 },
+      "status": "completed",
+      "declaredReadiness": 100,
+      "legalBase": { "type": "kzhk_guarantee", "status": "active" },
+      "factors": {
+        "R1": { "id": "R1", "name": "Отсутствие правового основания", "description": "Гарантия КЖК и разрешение МИО полностью подтверждены", "baseWeight": 35, "status": "none", "source": "Homeportal.kz" },
+        "R2": { "id": "R2", "name": "Прямое предложение внести деньги", "description": "", "baseWeight": 25, "status": "none" },
+        "R3": { "id": "R3", "name": "Активная реклама стройки", "description": "", "baseWeight": 10, "status": "none" },
+        "R4": { "id": "R4", "name": "Коллективное обращение", "description": "", "baseWeight": 15, "status": "none" },
+        "R5": { "id": "R5", "name": "Несовпадение готовности", "description": "", "baseWeight": 10, "status": "none" },
+        "R6": { "id": "R6", "name": "Простой / просрочка", "description": "", "baseWeight": 5, "status": "none" }
+      },
+      "totalScore": 0,
+      "zone": "green"
+    },
+    {
+      "id": "prj_7",
+      "name": "ЖК «Жаным»",
+      "developer": "ТОО «УК Шанырак Строй» (Biryuza Development)",
+      "bin": "020740000048",
+      "address": "г. Усть-Каменогорск, мкр. КШТ, пр. И. Есенберлина, 20",
+      "coordinates": { "lat": 49.898450, "lng": 82.608120 },
+      "status": "building",
+      "declaredReadiness": 85,
+      "legalBase": { "type": "kzhk_guarantee", "status": "active" },
+      "factors": {
+        "R1": { "id": "R1", "name": "Отсутствие правового основания", "description": "Гарантия Единого оператора КЖК подтверждена", "baseWeight": 35, "status": "none", "source": "Homeportal.kz" },
+        "R2": { "id": "R2", "name": "Прямое предложение внести деньги", "description": "", "baseWeight": 25, "status": "none" },
+        "R3": { "id": "R3", "name": "Активная реклама стройки", "description": "", "baseWeight": 10, "status": "none" },
+        "R4": { "id": "R4", "name": "Коллективное обращение", "description": "", "baseWeight": 15, "status": "none" },
+        "R5": { "id": "R5", "name": "Несовпадение готовности", "description": "", "baseWeight": 10, "status": "none" },
+        "R6": { "id": "R6", "name": "Простой / просрочка", "description": "", "baseWeight": 5, "status": "none" }
+      },
+      "totalScore": 0,
+      "zone": "green"
+    },
+    {
+      "id": "prj_8",
+      "name": "ЖК «Ертіс Ривер Парк»",
+      "developer": "ТОО «ВостокСтройИнвест Групп»",
+      "bin": "220540001111",
+      "address": "г. Усть-Каменогорск, мкр. Стрелка, наб. Славского, 24А",
+      "coordinates": { "lat": 49.945339, "lng": 82.607933 },
+      "status": "building",
+      "declaredReadiness": 45,
+      "actualReadiness": 10,
+      "legalBase": { "type": "none", "status": "inactive" },
+      "factors": {
+        "R1": { "id": "R1", "name": "Отсутствие правового основания", "description": "По данным ГАСК ВКО, Qazreestr и Homeportal разрешение на привлечение денег дольщиков не выдавалось", "baseWeight": 35, "status": "confirmed", "source": "Официальный ответ ГАСК ВКО / Qazreestr.kz" },
+        "R2": { "id": "R2", "name": "Прямое предложение внести деньги", "description": "Сбор предварительных взносов по договорам бронирования в обход закона о ДДУ", "baseWeight": 25, "status": "confirmed", "source": "Instagram / WhatsApp-рассылка" },
+        "R3": { "id": "R3", "name": "Активная реклама стройки", "description": "Таргетированная реклама квартир на стадии котлована", "baseWeight": 10, "status": "confirmed", "source": "Instagram Ads / OLX" },
+        "R4": { "id": "R4", "name": "Коллективное обращение", "description": "Поступило коллективное обращение граждан в акимат г. Усть-Каменогорск", "baseWeight": 15, "status": "confirmed", "source": "Обращение в МИО ВКО от 05.10.2026" },
+        "R5": { "id": "R5", "name": "Несовпадение готовности", "description": "", "baseWeight": 10, "status": "none" },
+        "R6": { "id": "R6", "name": "Простой / просрочка", "description": "", "baseWeight": 5, "status": "none" }
+      },
+      "totalScore": 85,
+      "zone": "red",
+      "droneImages": {
+        "date1": "2026-07-15T00:00:00Z",
+        "url1": "/demo-drone-1.jpg",
+        "date2": "2026-10-14T00:00:00Z",
+        "url2": "/demo-drone-2.jpg"
+      }
+    }
+  ],
+  "ads": [
+    {
+      "id": "ad_1",
+      "source": "Instagram",
+      "author": "@ray_residence_uka",
+      "datePublished": "2026-10-10T10:00:00Z",
+      "dateFixed": "2026-10-12T12:00:00Z",
+      "url": "https://instagram.com/p/ray_residence_ukg",
+      "text": "Старт продаж в ЖК Ray Residence на пр. Есенберлина, 13/1! Платная бронь квартиры всего за 300 000 тенге, первоначальный взнос 20% в рассрочку от застройщика.",
+      "projectId": "prj_case_a"
+    },
+    {
+      "id": "ad_2",
+      "source": "Telegram",
+      "author": "@novostroyki_oskemen",
+      "datePublished": "2026-10-14T09:00:00Z",
+      "dateFixed": "2026-10-14T09:30:00Z",
+      "url": "https://t.me/novostroyki_oskemen/1042",
+      "text": "Открыты закрытые продажи во 2-й очереди ЖК Көктем (КШТ, пр. Есенберлина, 14)! Цены на этапе котлована от 340 000 тг/м2. Депозит для фиксации цены в офисе продаж — 500 000 тенге.",
+      "projectId": "prj_case_b"
+    },
+    {
+      "id": "ad_3",
+      "source": "Krisha.kz",
+      "author": "Отдел продаж ТОО НАУАН КОРП",
+      "datePublished": "2026-10-08T14:20:00Z",
+      "dateFixed": "2026-10-09T11:00:00Z",
+      "url": "https://krisha.kz/complex/show/ust-kamenogorsk/zolotoj-kvadrat/",
+      "text": "ЖК Золотой Квадрат на ул. Кайсенова, 55/1. Строительство с гарантией Единого оператора КЖК. Оформление строго по договорам долевого участия (ДДУ).",
+      "projectId": "prj_case_c"
+    },
+    {
+      "id": "ad_4",
+      "source": "Instagram",
+      "author": "@ertis_river_park",
+      "datePublished": "2026-10-11T18:00:00Z",
+      "dateFixed": "2026-10-12T08:15:00Z",
+      "url": "https://instagram.com/p/ertis_river_sale",
+      "text": "Видовые квартиры на набережной Славского, 24А в ЖК Ертіс Ривер Парк! Успейте внести первоначальный взнос 10% напрямую в кассу застройщика по договору предварительного бронирования!",
+      "projectId": "prj_8"
+    },
+    {
+      "id": "ad_5",
+      "source": "OLX.kz",
+      "author": "Риелтор Агентство ВКО",
+      "datePublished": "2026-10-13T11:45:00Z",
+      "dateFixed": "2026-10-13T15:00:00Z",
+      "url": "https://olx.kz/d/obyavlenie/koktem-2-ochered-bron",
+      "text": "Уступка права требования / ПДКП в ЖК Көктем (2-я очередь, Есенберлина 14). Сдача через полтора года, сейчас стадия фундамента. Оплата наличными, скидка 15%.",
+      "projectId": "prj_case_b"
+    },
+    {
+      "id": "ad_6",
+      "source": "Krisha.kz",
+      "author": "Tumar Group Oskemen",
+      "datePublished": "2026-10-05T10:00:00Z",
+      "dateFixed": "2026-10-06T12:00:00Z",
+      "url": "https://krisha.kz/complex/show/tumar-towers",
+      "text": "ЖК Tumar Towers Oskemen на Стрелке (пр. Победы, 9). Бизнес-класс с видом на Иртыш. Готовность комплекса 65%, ипотека от банков-партнеров.",
+      "projectId": "prj_4"
+    },
+    {
+      "id": "ad_7",
+      "source": "Instagram",
+      "author": "@satti_city_ukg",
+      "datePublished": "2026-10-09T16:30:00Z",
+      "dateFixed": "2026-10-10T09:00:00Z",
+      "url": "https://instagram.com/p/satti_city_news",
+      "text": "ЖК Satti City на пр. Есенберлина, 10/1 — современный жилой комплекс в центре КШТ. Консультации по планировкам в нашем офисе продаж.",
+      "projectId": "prj_5"
+    },
+    {
+      "id": "ad_8",
+      "source": "Telegram",
+      "author": "@vko_realty_invest",
+      "datePublished": "2026-10-14T19:10:00Z",
+      "dateFixed": "2026-10-15T08:00:00Z",
+      "url": "https://t.me/vko_realty_invest/889",
+      "text": "Горячее предложение для инвесторов в ЖК Ертіс Ривер Парк! Взнос от 1 000 000 тенге по договору инвестирования, без участия банков и проверок КЖК.",
+      "projectId": "prj_8"
+    },
+    {
+      "id": "ad_9",
+      "source": "Krisha.kz",
+      "author": "ТОО AN GROUPS",
+      "datePublished": "2026-10-01T09:00:00Z",
+      "dateFixed": "2026-10-02T10:00:00Z",
+      "url": "https://krisha.kz/complex/show/asylym-ukg",
+      "text": "ЖК ASYLYM в 19-м микрорайоне (ул. Кокжал Барака, 18б). Дом введен в эксплуатацию, гарантия КЖК, доступны программы Отбасы Банка.",
+      "projectId": "prj_6"
+    },
+    {
+      "id": "ad_10",
+      "source": "Instagram",
+      "author": "@zhanym_residence_ukg",
+      "datePublished": "2026-10-03T13:00:00Z",
+      "dateFixed": "2026-10-04T10:00:00Z",
+      "url": "https://instagram.com/p/zhanym_kst",
+      "text": "ЖК Жаным на пр. Есенберлина, 20 (КШТ). Надежный застройщик ТОО УК Шанырак Строй, гарантия Единого оператора жилищного строительства.",
+      "projectId": "prj_7"
+    },
+    {
+      "id": "ad_11",
+      "source": "Facebook",
+      "author": "Недвижимость Усть-Каменогорск ВКО",
+      "datePublished": "2026-10-15T07:40:00Z",
+      "dateFixed": "2026-10-15T09:15:00Z",
+      "url": "https://facebook.com/groups/ukg.realty/posts/991234",
+      "text": "Кто искал рассрочку без банка на КШТ? В ЖК Ray Residence открыта платная бронь квартир на этапе строительства, первый взнос 20% сразу.",
+      "projectId": "prj_case_a"
+    },
+    {
+      "id": "ad_12",
+      "source": "TikTok",
+      "author": "@realtor_oskemen_top",
+      "datePublished": "2026-10-15T11:20:00Z",
+      "dateFixed": "2026-10-15T12:00:00Z",
+      "url": "https://tiktok.com/@realtor_oskemen_top/video/7421000",
+      "text": "Обзор стройки ЖК Ертіс Ривер Парк на Славского! Пока заливают котлован, можно забронировать 2-комнатную квартиру за депозит 400 000 тг.",
+      "projectId": "prj_8"
+    }
+  ],
+  "hypotheses": [],
+  "logs": []
+}
